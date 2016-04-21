@@ -1,3 +1,11 @@
-<div class="construct col-xs-4 col-sm-7 col-sm-offset-2">
-	<h1> Check back soon. Blog being born. </h1>
-</div>
+<br />
+<br />
+<br />
+	<div class="col-sm-8 col-sm-offset-3 col-md-8 col-md-offset-2 main">
+		<h1> Check back soon. Blog being born. </h1>
+	</div>
+	<% @posts.each do |post| %>
+		<div class="articlebox col-sm-8 col-sm-offset-3 col-md-8 col-md-offset-2 main">
+			<h3><%= post.title %></h3>
+			<%end%>
+		</div>
